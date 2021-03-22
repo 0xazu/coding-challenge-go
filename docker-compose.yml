@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  challenge:
+    build: .
+    ports:
+      - "8080:8080"
+
+  master:
+    image: locustio/locust
+    ports:
+      - "8089:8089"
+    volumes:
+      - ./loadtest:/mnt/locust
+    command: -f /mnt/locust/locustfile.py --master -H http://master:8089
+
+  worker:
+    image: locustio/locust
+    volumes:
+      - ./loadtest:/mnt/locust
+    command: -f /mnt/locust/locustfile.py --worker --master-host master
