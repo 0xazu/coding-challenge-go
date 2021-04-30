@@ -1,6 +1,6 @@
 # coding-challenge-go
 
-This repository contains my solution to the coding challenge. I was tempted to ask questions to clarify some points, but I decided not to do it and document my assumptions and the decisions I took. I think this is a better way to show how I approach problems and how I think when I have to design a solution.
+This repository contains my solution to the go coding challenge.
 
 ## Assumptions
 
