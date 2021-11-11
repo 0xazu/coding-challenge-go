@@ -1,6 +1,5 @@
-# coding-challenge-go
-
-This repository contains my solution to the go coding challenge.
+# transactions
+This repository contains a simple challenge to practice go
 
 ## Assumptions
 
