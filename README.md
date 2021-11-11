@@ -1,4 +1,4 @@
-# transactions
+# Transactions
 This repository contains a simple challenge to practice go
 
 ## Assumptions
